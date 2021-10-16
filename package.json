@@ -1,7 +1,6 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -16,6 +15,18 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "apollo-server-express": "^3.4.0"
-  }
+    "apollo-boost": "^0.4.9",
+    "apollo-server": "^3.4.0",
+    "apollo-server-express": "^3.4.0",
+    "graphql": "^15.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjtrahey/book-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjtrahey/book-search/issues"
+  },
+  "homepage": "https://github.com/cjtrahey/book-search#readme",
+  "description": ""
 }
